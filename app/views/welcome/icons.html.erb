@@ -1,201 +1,257 @@
-Jump To:
-<ul>
-	Instructions:
-	<li><a href="#instructions">Basic Instructions</a></li>
-	<li><a href="#icon-styling">Styling Instructions</a></li>
-	<li><a href="#large-icons">Larger Icon Instructions</a></li>
-	<li><a href="#animated-icons">Animated Icon Instructions</a></li>
-	<li><a href="#bordered-icons">Bordered &amp; Pulled Icons Instructions</a></li>
-	Icons:
-	<li><a href="#glyphicons">Glyphicons</a></li>
-  <li><a href="#iconic">Iconic Icons</a></li>
-  <li><a href="#awesome">Font Awesome Icons</a></li>
-  <li><a href="#awesome-more">Font Awesome More Icons</a></li>
-</ul>
-
-<section id="instructions">
-  <h2>How to use</h2>
-  <p>All icons require an <code>&lt;i&gt;</code> tag with a unique class, prefixed with <code>icon-</code> or <code>iconic-</code>. To use, place the following code just about anywhere:</p>
-  <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon-search"</span><span class="tag">&gt;&lt;/i&gt;</span></li></ol></pre>
-  <hr class="bs-docs-separator">
-
-	<h2 id="icon-styling">Styling</h2>
-	<p>Since iconic icons and font awesome icons are a font, they will automatically match the text size and style. You can even use text effects, like <code>text-shadow</code>.</p>
-	<div class="bs-docs-example">
-    <p>An external <a href="#"><i class="iconic-link"></i> link</a> and some <i><i class="iconic-lock"></i> italic text</i>.</p>
-    <p style="font-size: 20px;"><i class="iconic-o-check"></i> <i class="iconic-o-check" style="color: #999999"></i> <i class="iconic-o-check" style="color: #0044CC"></i> <i class="iconic-o-check" style="color: #2F96B4"></i> <i class="iconic-o-check" style="color: #51A351"></i> <i class="iconic-o-check" style="color: #F89406"></i> <i class="iconic-o-check" style="color: #BD362F"></i> <i class="iconic-o-check" style="color: purple"></i></p>
-    <p style="font-size: 20px; color: #468847"><i class="iconic-check"></i> Approved</p>
-    <p><span style="color: #F89406; font-weight: bold; text-shadow: 1px 1px 4px #F89406"><i class="iconic-rss"></i> RSS feed</span></p>
-  </div>
-  <hr class="bs-docs-separator">
-
-  <h3 id="large-icons">Larger Icons</h3>
-  <p>
-    To increase the size of icons relative to its container, use <code>icon-large</code>, <code>icon-2x</code>,
-    <code>icon-3x</code>, or <code>icon-4x</code>.
-  </p>
-  <p>
-    Increase the icon size by using the <code>icon-large</code> (33% increase), <code>icon-2x</code>,
-    <code>icon-3x</code>, or <code>icon-4x</code> classes.
-  </p>
-  <div class="well well-transparent">
-    <div style="font-size: 24px; line-height: 1.5em;">
-      <p><i class="icon-camera-retro icon-large"></i> icon-camera-retro</p>
-      <p><i class="icon-camera-retro icon-2x"></i> icon-camera-retro</p>
-      <p><i class="icon-camera-retro icon-3x"></i> icon-camera-retro</p>
-      <p><i class="icon-camera-retro icon-4x"></i> icon-camera-retro</p>
-    </div>
-  </div>
-<pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;p&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon-camera-retro icon-large"</span><span class="tag">&gt;&lt;/i&gt;</span><span class="pln"> icon-camera-retro</span><span class="tag">&lt;/p&gt;</span></li><li class="L1"><span class="tag">&lt;p&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon-camera-retro icon-2x"</span><span class="tag">&gt;&lt;/i&gt;</span><span class="pln"> icon-camera-retro</span><span class="tag">&lt;/p&gt;</span></li><li class="L2"><span class="tag">&lt;p&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon-camera-retro icon-3x"</span><span class="tag">&gt;&lt;/i&gt;</span><span class="pln"> icon-camera-retro</span><span class="tag">&lt;/p&gt;</span></li><li class="L3"><span class="tag">&lt;p&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon-camera-retro icon-4x"</span><span class="tag">&gt;&lt;/i&gt;</span><span class="pln"> icon-camera-retro</span><span class="tag">&lt;/p&gt;</span></li></ol></pre>
-  <div class="alert alert-info">
-    <i class="icon-info-sign"></i> If your icons are getting chopped off on top and bottom, make sure you have
-    sufficient line-height.
-  </div>
-  <hr class="bs-docs-separator">
-
-  <h3 id="animated-icons">Animated Spinner</h3>
-  <p>
-    Use the <code>icon-spin</code> class to get any icon to rotate. Works best with <code><i class="icon-spinner icon-spin"></i> icon-spinner</code> and
-    <code><i class="icon-refresh icon-spin"></i> icon-refresh</code>.
-  </p>
-  <div class="well well-large well-transparent lead">
-    <i class="icon-spinner icon-spin"></i> Spinner icon when loading content...
-  </div>
-	<pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon-spinner icon-spin"</span><span class="tag">&gt;&lt;/i&gt;</span><span class="pln"> Spinner icon when loading content...</span></li></ol></pre>
-  <p class="alert alert-info">
-    <i class="icon-info-sign"></i> CSS3 animations aren't supported in IE7 - IE9.
-  </p>
-  <hr class="bs-docs-separator">
-  <h3 id="bordered-icons">Bordered &amp; Pulled Icons</h3>
-  <p>
-    Use <code>icon-border</code> and <code>pull-right</code> or <code>pull-left</code> for easy pull quotes or
-    article graphics.
-  </p>
-  <div class="well well-large well-transparent">
-    <i class="icon-quote-left icon-4x pull-left icon-muted"></i>
-    Use a few of the new styles together, and you've got easy pull quotes or a great introductory article image.
-    Or spinning icons for loading and refreshing content. Or fun big icons in multi-line buttons. You can combine all
-    of them in any combination to get lots of new possibilities.
-  </div>
-	<pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon-quote-left icon-4x pull-left icon-muted"</span><span class="tag">&gt;&lt;/i&gt;</span></li><li class="L1"><span class="pln">Use a few of the new styles together ... lots of new possibilities.</span></li></ol></pre>
-  <div class="well well-large well-transparent">
-    <i class="icon-flag icon-2x pull-left icon-border"></i>
-    Use a few of the new styles together, and you've got easy pull quotes or a great introductory article image.
-    Or spinning icons for loading and refreshing content. Or fun big icons in multi-line buttons. You can combine all
-    of them in any combination to get lots of new possibilities.
-  </div>
-	<pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon-flag icon-2x pull-left icon-border"</span><span class="tag">&gt;&lt;/i&gt;</span></li><li class="L1"><span class="pln">Use a few of the new styles together ... lots of new possibilities.</span></li></ol></pre>
-  <hr class="bs-docs-separator">
-</section>
-<section id="icons">
-  <div id="glyphicons">
-    <h2>Icon glyphs</h2>
-    <p>140 icons in sprite form, available in dark gray (default) and white, provided by <a href="http://glyphicons.com" target="_blank">Glyphicons</a>.</p>
-    <ul class="the-icons clearfix">
-      <% @icons.each do |icon| %>
-        <li><i class=<%="#{icon}"%>></i> <%="#{icon}"%> </li>
-      <% end %>
-    </ul>
-
-    <h3>Glyphicons attribution</h3>
-    <p><a href="http://glyphicons.com/">Glyphicons</a> Halflings are normally not available for free, but an arrangement between Bootstrap and the Glyphicons creators have made this possible at no cost to you as developers. As a thank you, we ask you to include an optional link back to <a href="http://glyphicons.com/">Glyphicons</a> whenever practical.</p>
-  </div>
-  
-  <hr class="bs-docs-separator">
-  
-  <div id="iconic">    
-    <h2>Iconic Icons as a font <small>Graciously provided by <a href="http://somerandomdude.com/work/iconic/" target="_blank">P.J. Onori</a></small></h2>
-    <p>171 very cool icons as a font. The icons they can be any color you like, have the same size as your text and are subject to CSS text effects.</p>
-  
-    <ul class="the-icons clearfix">
-      <% @iconic.each do |icon| %>
-        <li><i class=<%="#{icon}"%>></i> <%="#{icon}"%> </li>
-      <% end %>
-    </ul>
-  
-    <h3>Iconic icons attributions</h3>
-    <p>The <a href="http://somerandomdude.com/work/iconic/" target="_blank">Iconic icons</a> have been created by P.J. Onori of the <i>Some Random Dude</i> blog.</p>
-  </div>
-
-  <hr class="bs-docs-separator">
-  
-  <div id="awesome">
-		<h2>Font-Awesome icons as a font <small>Graciously provided by <a href="http://fortawesome.github.com/Font-Awesome/" target="_blank">Dave Gandy</a></small></h2>
-	  <p>similar to the iconic series, these perform the same way. They also overwrite the default glyphicons and render them as a font instead.</p>
-  
-	  <h6>Font-Awesome New for 3.0 </h6>
-	  <ul class="the-icons clearfix">
-	    <% @awesome_new.each do |icon| %>
-	      <li><i class=<%="#{icon}"%>></i> <%="#{icon}"%> </li>
-	    <% end %>
-	  </ul>
-	  <h6>Font-Awesome Web Icons </h6>
-	  <ul class="the-icons clearfix">
-	    <% @awesome_web.each do |icon| %>
-	      <li><i class=<%="#{icon}"%>></i> <%="#{icon}"%> </li>
-	    <% end %>
-	  </ul>  
-	  <h6>Font-Awesome Text Editor Icons </h6>
-	  <ul class="the-icons clearfix">
-	    <% @awesome_txt.each do |icon| %>
-	      <li><i class=<%="#{icon}"%>></i> <%="#{icon}"%> </li>
-	    <% end %>
-	  </ul>
-	  <h6>Font-Awesome Directional Icons </h6>
-	  <ul class="the-icons clearfix">
-	    <% @awesome_dir.each do |icon| %>
-	      <li><i class=<%="#{icon}"%>></i> <%="#{icon}"%> </li>
-	    <% end %>
-	  </ul>  
-	  <h6>Font-Awesome Video Icons </h6>
-	  <ul class="the-icons clearfix">
-	    <% @awesome_vid.each do |icon| %>
-	      <li><i class=<%="#{icon}"%>></i> <%="#{icon}"%> </li>
-	    <% end %>
-	  </ul>  
-	  <h6>Font-Awesome Social Icons </h6>
-	  <ul class="the-icons clearfix">
-	    <% @awesome_soc.each do |icon| %>
-	      <li><i class=<%="#{icon}"%>></i> <%="#{icon}"%> </li>
-	    <% end %>
-	  </ul>  
-	  <h6>Font-Awesome Medical Icons </h6>
-	  <ul class="the-icons clearfix">
-	    <% @awesome_med.each do |icon| %>
-	      <li><i class=<%="#{icon}"%>></i> <%="#{icon}"%> </li>
-	    <% end %>
-	  </ul> 
-  
-	  <h3>Font-Awesome icons attributions</h3>
-	  <p>The <a href="http://fortawesome.github.com/Font-Awesome/" target="_blank">Font-Awesome icons</a> have been created by Dave Gandy of  <i>Kyruus</i></p>
+<div class="span12">
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">		
+			<ul class="nav">
+				<li class="divider-vertical"></li>
+				<a class="brand" href="#">Instructions:</a>
+				<li><a href="#instructions">Basic</a></li>
+				<li><a href="#icon-styling">Styling</a></li>
+				<li><a href="#large-icons">Larger Icons</a></li>
+				<li><a href="#animated-icons">Animated Icons</a></li>
+				<li><a href="#bordered-icons">Bordered &amp; Pulled Icons</a></li>
+			</ul>
+			<ul class="nav">
+				<li class="divider-vertical"></li>
+				<a class="brand" href="#glyphicons">Icon Sets:</a>
+				<li><a href="#glyphicons">Glyphicons</a></li>
+			  <li><a href="#iconic">Iconic</a></li>
+			  <li><a href="#awesome">Font Awesome</a></li>
+			  <li><a href="#awesome-more">Font Awesome More</a></li>
+			</ul>
+		</div>
 	</div>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<section id="instructions">
+	  <div class="row">
+			<div class="span12">
+				<h2>How to use</h2>
+			</div>		
+			<div class="span3">
+	  		<p>All icons require an <code>&lt;i&gt;</code> tag with a unique class, prefixed with <code>icon-</code> or <code>iconic-</code>. To use, place the following code just about anywhere:</p>
+			</div>
+			<div class="span9">
+	  		<pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon-search"</span><span class="tag">&gt;&lt;/i&gt;</span></li></ol></pre>
+			</div>
+		</div>
+	
+		<hr class="bs-docs-separator">
+
+		<div class="row">
+			<div class="span12">
+				<h2 id="icon-styling">Styling</h2>
+			</div>
+			<div class="span3">
+				<p>Since iconic icons and font awesome icons are a font, they will automatically match the text size and style. You can even use text effects, like <code>text-shadow</code>.</p>
+			</div>
+			<div clas="span9">
+				<div class="bs-docs-example">
+	    		<p>An external <a href="#"><i class="iconic-link"></i> link</a> and some <i><i class="iconic-lock"></i> italic text</i>.</p>
+	    		<p style="font-size: 20px;"><i class="iconic-o-check"></i> <i class="iconic-o-check" style="color: #999999"></i> <i class="iconic-o-check" style="color: #0044CC"></i> <i class="iconic-o-check" style="color: #2F96B4"></i> <i class="iconic-o-check" style="color: #51A351"></i> <i class="iconic-o-check" style="color: #F89406"></i> <i class="iconic-o-check" style="color: #BD362F"></i> <i class="iconic-o-check" style="color: purple"></i></p>
+	    		<p style="font-size: 20px; color: #468847"><i class="iconic-check"></i> Approved</p>
+	    		<p><span style="color: #F89406; font-weight: bold; text-shadow: 1px 1px 4px #F89406"><i class="iconic-rss"></i> RSS feed</span></p>
+	  		</div>
+			</div>
+		</div>
+
+	  <hr class="bs-docs-separator">
+
+		<div class="row">
+			<div class="span12">	  
+				<h3 id="large-icons">Larger Icons</h3>
+			</div>
+			<div class="span3">
+				<p>To increase the size of icons relative to its container, use <code>icon-large</code>, <code>icon-2x</code>, <code>icon-3x</code>, or <code>icon-4x</code>.</p>
+			</div>
+			<div class="span9">
+			  <div class="well well-transparent">
+			    <div style="font-size: 24px; line-height: 1.5em;">
+			      <p><i class="icon-camera-retro icon-large"></i> icon-camera-retro</p>
+			      <p><i class="icon-camera-retro icon-2x"></i> icon-camera-retro</p>
+			      <p><i class="icon-camera-retro icon-3x"></i> icon-camera-retro</p>
+			      <p><i class="icon-camera-retro icon-4x"></i> icon-camera-retro</p>
+			    </div>
+			  </div>
+			<pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;p&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon-camera-retro icon-large"</span><span class="tag">&gt;&lt;/i&gt;</span><span class="pln"> icon-camera-retro</span><span class="tag">&lt;/p&gt;</span></li><li class="L1"><span class="tag">&lt;p&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon-camera-retro icon-2x"</span><span class="tag">&gt;&lt;/i&gt;</span><span class="pln"> icon-camera-retro</span><span class="tag">&lt;/p&gt;</span></li><li class="L2"><span class="tag">&lt;p&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon-camera-retro icon-3x"</span><span class="tag">&gt;&lt;/i&gt;</span><span class="pln"> icon-camera-retro</span><span class="tag">&lt;/p&gt;</span></li><li class="L3"><span class="tag">&lt;p&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon-camera-retro icon-4x"</span><span class="tag">&gt;&lt;/i&gt;</span><span class="pln"> icon-camera-retro</span><span class="tag">&lt;/p&gt;</span></li></ol></pre>
+			  <div class="alert alert-info">
+			    <i class="icon-info-sign"></i> If your icons are getting chopped off on top and bottom, make sure you have
+			    sufficient line-height.
+			  </div>
+			</div>
+		</div>
+	
+	  <hr class="bs-docs-separator">
+
+	  <div class="row">
+			<div class="span12">
+				<h3 id="animated-icons">Animated Spinner</h3>
+			</div>
+			<div class="span3">
+			  <p>Use the <code>icon-spin</code> class to get any icon to rotate. Works best with <code><i class="icon-spinner icon-spin"></i> icon-spinner</code> and <code><i class="icon-refresh icon-spin"></i> icon-refresh</code>.</p>
+			</div>
+			<div class="span9">
+			  <div class="well well-large well-transparent lead">
+			    <i class="icon-spinner icon-spin"></i> Spinner icon when loading content...
+			  </div>
+				<pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon-spinner icon-spin"</span><span class="tag">&gt;&lt;/i&gt;</span><span class="pln"> Spinner icon when loading content...</span></li></ol></pre>
+			  <p class="alert alert-info">
+			    <i class="icon-info-sign"></i> CSS3 animations aren't supported in IE7 - IE9.
+			  </p>
+			</div>
+		</div>
+			
+		<hr class="bs-docs-separator">
+		
+		<div class="row">	
+			<div class="span12">	
+			  <h3 id="bordered-icons">Bordered &amp; Pulled Icons</h3>
+			</div>
+			<div class="span3">
+			  <p>
+			    Use <code>icon-border</code> and <code>pull-right</code> or <code>pull-left</code> for easy pull quotes or
+			    article graphics.
+			  </p>
+			</div>
+			<div class="span9">
+			  <div class="well well-large well-transparent">
+			    <i class="icon-quote-left icon-4x pull-left icon-muted"></i>
+			    Use a few of the new styles together, and you've got easy pull quotes or a great introductory article image.
+			    Or spinning icons for loading and refreshing content. Or fun big icons in multi-line buttons. You can combine all
+			    of them in any combination to get lots of new possibilities.
+			  </div>
+				<pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon-quote-left icon-4x pull-left icon-muted"</span><span class="tag">&gt;&lt;/i&gt;</span></li><li class="L1"><span class="pln">Use a few of the new styles together ... lots of new possibilities.</span></li></ol></pre>
+			  <div class="well well-large well-transparent">
+			    <i class="icon-flag icon-2x pull-left icon-border"></i>
+			    Use a few of the new styles together, and you've got easy pull quotes or a great introductory article image.
+			    Or spinning icons for loading and refreshing content. Or fun big icons in multi-line buttons. You can combine all
+			    of them in any combination to get lots of new possibilities.
+			  </div>
+				<pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon-flag icon-2x pull-left icon-border"</span><span class="tag">&gt;&lt;/i&gt;</span></li><li class="L1"><span class="pln">Use a few of the new styles together ... lots of new possibilities.</span></li></ol></pre>
+			</div>
+		</div>
+		
+	  <hr class="bs-docs-separator">
+	</section>
+	<section id="icons">
+	  <div id="glyphicons">
+			<br/>
+			<br/>
+	    <h2>Icon glyphs</h2>
+	    <p>140 icons in sprite form, available in dark gray (default) and white, provided by <a href="http://glyphicons.com" target="_blank">Glyphicons</a>.</p>
+	    <ul class="the-icons clearfix">
+	      <% @icons.each do |icon| %>
+	        <li><i class=<%="#{icon}"%>></i> <%="#{icon}"%> </li>
+	      <% end %>
+	    </ul>
+
+	    <h3>Glyphicons attribution</h3>
+	    <p><a href="http://glyphicons.com/">Glyphicons</a> Halflings are normally not available for free, but an arrangement between Bootstrap and the Glyphicons creators have made this possible at no cost to you as developers. As a thank you, we ask you to include an optional link back to <a href="http://glyphicons.com/">Glyphicons</a> whenever practical.</p>
+	  </div>
   
-  <hr class="bs-docs-separator">
+	  <hr class="bs-docs-separator">
   
-  <div id="awesome-more">
-		<h2>Font-Awesome-More icons as a font <small>Graciously provided by <a href="https://github.com/gregoryloucas" target="_blank">@gregoryloucas</a></small></h2>
-	  <p>additional icons added to the Font-Awesome set</p>
+	  <div id="iconic">    
+			<br/>
+			<br/>
+	    <h2>Iconic Icons as a font <small>Graciously provided by <a href="http://somerandomdude.com/work/iconic/" target="_blank">P.J. Onori</a></small></h2>
+	    <p>171 very cool icons as a font. The icons they can be any color you like, have the same size as your text and are subject to CSS text effects.</p>
   
-	  <h6>Font-Awesome-More Social Icons </h6>
-	  <ul class="the-icons clearfix">
-	    <% @awesome_more_soc.each do |icon| %>
-	      <li><i class=<%="#{icon}"%>></i> <%="#{icon}"%> </li>
-	    <% end %>
-	  </ul> 
-	  <h6>Font-Awesome-More Corporate Icons </h6>
-	  <ul class="the-icons clearfix">
-	    <% @awesome_more_cor.each do |icon| %>
-	      <li><i class=<%="#{icon}"%>></i> <%="#{icon}"%> </li>
-	    <% end %>
-	  </ul>
-	  <h6>Font-Awesome-More More Icons </h6>
-	  <ul class="the-icons clearfix">
-	    <% @awesome_more_mor.each do |icon| %>
-	      <li><i class=<%="#{icon}"%>></i> <%="#{icon}"%> </li>
-	    <% end %>
-	  </ul>
+	    <ul class="the-icons clearfix">
+	      <% @iconic.each do |icon| %>
+	        <li><i class=<%="#{icon}"%>></i> <%="#{icon}"%> </li>
+	      <% end %>
+	    </ul>
   
-	  <h3>Font-Awesome-More icons attributions</h3>
-	  <p>The <a href="https://github.com/gregoryloucas/Font-Awesome-More" target="_blank">Font-Awesome-More icons</a> have been created by <a href="https://github.com/gregoryloucas" target="_blank">@gregoryloucas</a></p>  
-	</div>
-</section>
+	    <h3>Iconic icons attributions</h3>
+	    <p>The <a href="http://somerandomdude.com/work/iconic/" target="_blank">Iconic icons</a> have been created by P.J. Onori of the <i>Some Random Dude</i> blog.</p>
+	  </div>
+
+	  <hr class="bs-docs-separator">
+  
+	  <div id="awesome">
+			<br/>
+			<br/>
+			<h2>Font-Awesome icons as a font <small>Graciously provided by <a href="http://fortawesome.github.com/Font-Awesome/" target="_blank">Dave Gandy</a></small></h2>
+		  <p>similar to the iconic series, these perform the same way. They also overwrite the default glyphicons and render them as a font instead.</p>
+  
+		  <h6>Font-Awesome New for 3.0 </h6>
+		  <ul class="the-icons clearfix">
+		    <% @awesome_new.each do |icon| %>
+		      <li><i class=<%="#{icon}"%>></i> <%="#{icon}"%> </li>
+		    <% end %>
+		  </ul>
+		  <h6>Font-Awesome Web Icons </h6>
+		  <ul class="the-icons clearfix">
+		    <% @awesome_web.each do |icon| %>
+		      <li><i class=<%="#{icon}"%>></i> <%="#{icon}"%> </li>
+		    <% end %>
+		  </ul>  
+		  <h6>Font-Awesome Text Editor Icons </h6>
+		  <ul class="the-icons clearfix">
+		    <% @awesome_txt.each do |icon| %>
+		      <li><i class=<%="#{icon}"%>></i> <%="#{icon}"%> </li>
+		    <% end %>
+		  </ul>
+		  <h6>Font-Awesome Directional Icons </h6>
+		  <ul class="the-icons clearfix">
+		    <% @awesome_dir.each do |icon| %>
+		      <li><i class=<%="#{icon}"%>></i> <%="#{icon}"%> </li>
+		    <% end %>
+		  </ul>  
+		  <h6>Font-Awesome Video Icons </h6>
+		  <ul class="the-icons clearfix">
+		    <% @awesome_vid.each do |icon| %>
+		      <li><i class=<%="#{icon}"%>></i> <%="#{icon}"%> </li>
+		    <% end %>
+		  </ul>  
+		  <h6>Font-Awesome Social Icons </h6>
+		  <ul class="the-icons clearfix">
+		    <% @awesome_soc.each do |icon| %>
+		      <li><i class=<%="#{icon}"%>></i> <%="#{icon}"%> </li>
+		    <% end %>
+		  </ul>  
+		  <h6>Font-Awesome Medical Icons </h6>
+		  <ul class="the-icons clearfix">
+		    <% @awesome_med.each do |icon| %>
+		      <li><i class=<%="#{icon}"%>></i> <%="#{icon}"%> </li>
+		    <% end %>
+		  </ul> 
+  
+		  <h3>Font-Awesome icons attributions</h3>
+		  <p>The <a href="http://fortawesome.github.com/Font-Awesome/" target="_blank">Font-Awesome icons</a> have been created by Dave Gandy of  <i>Kyruus</i></p>
+		</div>
+  
+	  <hr class="bs-docs-separator">
+  
+	  <div id="awesome-more">
+			<br/>
+			<br/>
+			<h2>Font-Awesome-More icons as a font <small>Graciously provided by <a href="https://github.com/gregoryloucas" target="_blank">@gregoryloucas</a></small></h2>
+		  <p>additional icons added to the Font-Awesome set</p>
+  
+		  <h6>Font-Awesome-More Social Icons </h6>
+		  <ul class="the-icons clearfix">
+		    <% @awesome_more_soc.each do |icon| %>
+		      <li><i class=<%="#{icon}"%>></i> <%="#{icon}"%> </li>
+		    <% end %>
+		  </ul> 
+		  <h6>Font-Awesome-More Corporate Icons </h6>
+		  <ul class="the-icons clearfix">
+		    <% @awesome_more_cor.each do |icon| %>
+		      <li><i class=<%="#{icon}"%>></i> <%="#{icon}"%> </li>
+		    <% end %>
+		  </ul>
+		  <h6>Font-Awesome-More More Icons </h6>
+		  <ul class="the-icons clearfix">
+		    <% @awesome_more_mor.each do |icon| %>
+		      <li><i class=<%="#{icon}"%>></i> <%="#{icon}"%> </li>
+		    <% end %>
+		  </ul>
+  
+		  <h3>Font-Awesome-More icons attributions</h3>
+		  <p>The <a href="https://github.com/gregoryloucas/Font-Awesome-More" target="_blank">Font-Awesome-More icons</a> have been created by <a href="https://github.com/gregoryloucas" target="_blank">@gregoryloucas</a></p>  
+		</div>
+	</section>
+</div>
