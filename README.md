@@ -3,6 +3,7 @@ basic-rails
 
 ##Features:
 * Devise Authentication
+
 * Paperclip Attachments
 * Boostrap Styling (Jasny flavor)
 * Custom Icons from Font Awesome and Font Awesome More
@@ -10,6 +11,7 @@ basic-rails
 
 ##To Get Started:
 1. Check out the project
+
 2. Create a new repository
 3. In the directory of the checked out project, run the following, replacing {USERNAME} and {PROJECTNAME} with your username and project name.
 
