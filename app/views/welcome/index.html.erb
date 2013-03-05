@@ -1,3 +1,65 @@
-<h1>Welcome#index</h1>
-<p>Find me in app/views/welcome/index.html.erb</p>
-<i class="icon-reddit icon-spin"></i>
+<div class="row">
+	<div class="span12">
+		<h1>Welcome to the rails quickstart project</h1>
+		<p>A project aimed at being branched to quickly deploy ruby apps without initial setup.</p>
+		<h2>Features include:</h2>
+	</div>
+</div>
+<hr class="bs-docs-separator">
+<div class="row">
+	<div class="span12">
+		<h4>Devise Authentication</h4>
+	</div>
+	<div class="span3">
+		<a href="https://github.com/plataformatec/devise"><i class="icon-github"></i> Devise on Github </a>
+	</div>
+	<div class="span9">
+		<p>To use authentication, simply use the included routes and add <code>before_filter :authenticate_admin!</code> to your protected controllers.</p>
+	</div>
+</div>
+<hr class="bs-docs-separator">
+
+<div class="row">
+	<div class="span12">
+		<h4>Better Errors and Binding of Caller</h4>
+	</div>
+	<div class="span3">
+		<a href="https://github.com/banister/binding_of_caller"><i class="icon-github"></i> Binding of Caller on Github </a>
+		<br/>
+		<a href="https://github.com/charliesome/better_errors"><i class="icon-github"></i> Better Errors on Github </a>
+	</div>
+	<div class="span9">
+		<p>These gems are useful for debugging errors and only kick in in development mode. They will work automatically, nothing to configure.</p>
+	</div>
+</div>
+<hr class="bs-docs-separator">
+
+<div class="row">
+	<div class="span12">
+		<h4>Paperclip</h4>
+	</div>
+	<div class="span3">
+		<a href="https://github.com/thoughtbot/paperclip"><i class="icon-github"></i> Paperclip on Github </a>
+	</div>
+	<div class="span9">
+		<p>This gem allows for easy uploading of images and other attachments. A basic guide to usage can be found at the github site.</p>
+	</div>
+</div>
+<hr class="bs-docs-separator">
+
+<div class="row">
+	<div class="span12">
+		<h4>Bootstrap</h4>
+	</div>
+	<div class="span3">
+		<a href="http://twitter.github.com/bootstrap/"><i class="icon-github"></i> Twitter Bootstrap on Github </a><br/>
+		<a href="http://jasny.github.com/bootstrap/"><i class="icon-github"></i> Jasny Bootstrap on Github </a><br/>
+		<a href="http://fortawesome.github.com/Font-Awesome/"><i class="icon-github"></i> Font Awesome on Github </a><br/>
+		<a href="http://gregoryloucas.github.com/Font-Awesome-More/"><i class="icon-github"></i> Font Awesome More on Github </a><br/>
+	</div>
+	<div class="span9">
+		<p>This project was built using Jasny Bootstrap for styling and some functionality. This includes all Twitter Bootstrap functionality as well as some additional features.</p>
+		<p>Many icons were added for use from all four sources, and a combined document can be found <%= link_to "here", welcome_icons_path %></p>
+	</div>
+</div>
+<hr class="bs-docs-separator">
